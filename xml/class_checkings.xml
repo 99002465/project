@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_checkings" kind="class" language="C++" prot="public">
+    <compoundname>Checkings</compoundname>
+    <basecompoundref refid="class_account" prot="public" virt="non-virtual">Account</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_checkings_1ade4e823e69c5cce7c0de28d0e5a9e75b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Checkings::c_balance</definition>
+        <argsstring></argsstring>
+        <name>c_balance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" line="9" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_checkings_1ace858703262427f04114ce818da1d1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Checkings::setBalance</definition>
+        <argsstring>(double deposit)</argsstring>
+        <name>setBalance</name>
+        <param>
+          <type>double</type>
+          <declname>deposit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" line="12" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_checkings_1a26331f20b474ad86f0c0fc2e2570dc19" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Checkings::getBalance</definition>
+        <argsstring>() const</argsstring>
+        <name>getBalance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" line="13" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_checkings_1a518aaf7091094edee2ab2a6190f649eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Checkings::setWithdraw</definition>
+        <argsstring>()</argsstring>
+        <name>setWithdraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" line="14" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.cpp" bodystart="17" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_checkings_1a406ed3b10faabf16a52b02f8c6149ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Checkings::setDeposit</definition>
+        <argsstring>()</argsstring>
+        <name>setDeposit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" line="15" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.cpp" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_checkings_1aa724ee0e3cd4088dfe99524d8da31117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Checkings::getTransfer</definition>
+        <argsstring>()</argsstring>
+        <name>getTransfer</name>
+        <briefdescription>
+<para>returns transfer ammount </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" line="16" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.cpp" bodystart="42" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Checkings</label>
+        <link refid="class_checkings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Account</label>
+        <link refid="class_account"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Checkings</label>
+        <link refid="class_checkings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Account</label>
+        <link refid="class_account"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" line="6" column="1" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Checkings.h" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_checkings_1ade4e823e69c5cce7c0de28d0e5a9e75b" prot="private" virt="non-virtual"><scope>Checkings</scope><name>c_balance</name></member>
+      <member refid="class_account_1ad1be8e5bc959a5b1ea52669b4bd16547" prot="public" virt="non-virtual"><scope>Checkings</scope><name>getAccountName</name></member>
+      <member refid="class_checkings_1a26331f20b474ad86f0c0fc2e2570dc19" prot="public" virt="non-virtual"><scope>Checkings</scope><name>getBalance</name></member>
+      <member refid="class_checkings_1aa724ee0e3cd4088dfe99524d8da31117" prot="public" virt="non-virtual"><scope>Checkings</scope><name>getTransfer</name></member>
+      <member refid="class_account_1a3715579f3dbe33a6ae383c7ceae4cfc8" prot="public" virt="non-virtual"><scope>Checkings</scope><name>login</name></member>
+      <member refid="class_account_1adc642b711d664002935f0b858162de64" prot="public" virt="non-virtual"><scope>Checkings</scope><name>setAccountName</name></member>
+      <member refid="class_account_1a877389e61cb1b24bdfac4393d56615ae" prot="public" virt="non-virtual"><scope>Checkings</scope><name>setAccountNumber</name></member>
+      <member refid="class_checkings_1ace858703262427f04114ce818da1d1a2" prot="public" virt="non-virtual"><scope>Checkings</scope><name>setBalance</name></member>
+      <member refid="class_checkings_1a406ed3b10faabf16a52b02f8c6149ad9" prot="public" virt="non-virtual"><scope>Checkings</scope><name>setDeposit</name></member>
+      <member refid="class_checkings_1a518aaf7091094edee2ab2a6190f649eb" prot="public" virt="non-virtual"><scope>Checkings</scope><name>setWithdraw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

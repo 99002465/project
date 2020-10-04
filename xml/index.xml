@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="class_account" kind="class"><name>Account</name>
+    <member refid="class_account_1ac82303c61d67850446ca5be72833582e" kind="variable"><name>firstName</name></member>
+    <member refid="class_account_1a268ab7dff7c8f1ef5ccd8dde457e3a0b" kind="variable"><name>lastName</name></member>
+    <member refid="class_account_1a37a95016ff7b92ac857638778222df53" kind="variable"><name>accountName</name></member>
+    <member refid="class_account_1a7c98923d42bfaa38c835f327080a608a" kind="variable"><name>accNumber</name></member>
+    <member refid="class_account_1a92e2552bc9214e93070df37a483fcc1a" kind="variable"><name>accountNumber</name></member>
+    <member refid="class_account_1a52db31a1199637f729c53de61649b885" kind="variable"><name>pinNumber</name></member>
+    <member refid="class_account_1adc642b711d664002935f0b858162de64" kind="function"><name>setAccountName</name></member>
+    <member refid="class_account_1ad1be8e5bc959a5b1ea52669b4bd16547" kind="function"><name>getAccountName</name></member>
+    <member refid="class_account_1a877389e61cb1b24bdfac4393d56615ae" kind="function"><name>setAccountNumber</name></member>
+    <member refid="class_account_1a3715579f3dbe33a6ae383c7ceae4cfc8" kind="function"><name>login</name></member>
+  </compound>
+  <compound refid="class_checkings" kind="class"><name>Checkings</name>
+    <member refid="class_checkings_1ade4e823e69c5cce7c0de28d0e5a9e75b" kind="variable"><name>c_balance</name></member>
+    <member refid="class_checkings_1ace858703262427f04114ce818da1d1a2" kind="function"><name>setBalance</name></member>
+    <member refid="class_checkings_1a26331f20b474ad86f0c0fc2e2570dc19" kind="function"><name>getBalance</name></member>
+    <member refid="class_checkings_1a518aaf7091094edee2ab2a6190f649eb" kind="function"><name>setWithdraw</name></member>
+    <member refid="class_checkings_1a406ed3b10faabf16a52b02f8c6149ad9" kind="function"><name>setDeposit</name></member>
+    <member refid="class_checkings_1aa724ee0e3cd4088dfe99524d8da31117" kind="function"><name>getTransfer</name></member>
+  </compound>
+  <compound refid="class_savings" kind="class"><name>Savings</name>
+    <member refid="class_savings_1a281bcdaff07a0e6bd52396422a63cfad" kind="variable"><name>s_balance</name></member>
+    <member refid="class_savings_1a6281ffa82d982af556d055ec6deb654f" kind="function"><name>setSavingsBalance</name></member>
+    <member refid="class_savings_1a9fdff98fe1aa83c48f7edea23ee7c139" kind="function"><name>getSavingsBalance</name></member>
+    <member refid="class_savings_1a6c531308821ddfdc574b751d57419ecd" kind="function"><name>setWithdraw</name></member>
+    <member refid="class_savings_1acc0078541c2548f3c3b23a6b99d60f61" kind="function"><name>setDeposit</name></member>
+    <member refid="class_savings_1a9961e63cba31be4488362066f5b83377" kind="function"><name>getTransfer</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_account_8cpp" kind="file"><name>Account.cpp</name>
+  </compound>
+  <compound refid="_account_8h" kind="file"><name>Account.h</name>
+  </compound>
+  <compound refid="_checkings_8cpp" kind="file"><name>Checkings.cpp</name>
+  </compound>
+  <compound refid="_checkings_8h" kind="file"><name>Checkings.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a8396c50bf544009fb2fc4907b00cbad3" kind="function"><name>mainMenu</name></member>
+    <member refid="main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_savings_8cpp" kind="file"><name>Savings.cpp</name>
+  </compound>
+  <compound refid="_savings_8h" kind="file"><name>Savings.h</name>
+  </compound>
+  <compound refid="dir_1715c6a77e38bd3f92b4cff489f37fa1" kind="dir"><name>C:/Users/Akshata Shet</name>
+  </compound>
+  <compound refid="dir_5dd761b1f7ec4d3a6bee9a65bc70ab33" kind="dir"><name>C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject</name>
+  </compound>
+  <compound refid="dir_4731bec223eb37685ef3df603427483f" kind="dir"><name>C:/Users/Akshata Shet/Desktop</name>
+  </compound>
+  <compound refid="dir_db1db50888911b3998b97a599e87b3d4" kind="dir"><name>C:/Users/Akshata Shet/Desktop/mini_project</name>
+  </compound>
+  <compound refid="dir_d522931ffa1371640980b621734a4381" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

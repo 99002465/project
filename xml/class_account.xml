@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_account" kind="class" language="C++" prot="public">
+    <compoundname>Account</compoundname>
+    <derivedcompoundref refid="class_checkings" prot="public" virt="non-virtual">Checkings</derivedcompoundref>
+    <derivedcompoundref refid="class_savings" prot="public" virt="non-virtual">Savings</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_account_1ac82303c61d67850446ca5be72833582e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Account::firstName</definition>
+        <argsstring></argsstring>
+        <name>firstName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="11" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a268ab7dff7c8f1ef5ccd8dde457e3a0b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Account::lastName</definition>
+        <argsstring></argsstring>
+        <name>lastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="11" column="18" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a37a95016ff7b92ac857638778222df53" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Account::accountName</definition>
+        <argsstring></argsstring>
+        <name>accountName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="12" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a7c98923d42bfaa38c835f327080a608a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Account::accNumber</definition>
+        <argsstring></argsstring>
+        <name>accNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="13" column="5" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a92e2552bc9214e93070df37a483fcc1a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Account::accountNumber</definition>
+        <argsstring></argsstring>
+        <name>accountNumber</name>
+        <initializer>= 11223344</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="15" column="5" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_account_1a52db31a1199637f729c53de61649b885" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Account::pinNumber</definition>
+        <argsstring></argsstring>
+        <name>pinNumber</name>
+        <initializer>= 1234</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="16" column="5" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_account_1adc642b711d664002935f0b858162de64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Account::setAccountName</definition>
+        <argsstring>(string firstname, string lastname)</argsstring>
+        <name>setAccountName</name>
+        <param>
+          <type>string</type>
+          <declname>firstname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lastname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="20" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.cpp" bodystart="9" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1ad1be8e5bc959a5b1ea52669b4bd16547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Account::getAccountName</definition>
+        <argsstring>()</argsstring>
+        <name>getAccountName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="21" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.cpp" bodystart="15" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a877389e61cb1b24bdfac4393d56615ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Account::setAccountNumber</definition>
+        <argsstring>(int accno)</argsstring>
+        <name>setAccountNumber</name>
+        <param>
+          <type>int</type>
+          <declname>accno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="22" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_account_1a3715579f3dbe33a6ae383c7ceae4cfc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Account::login</definition>
+        <argsstring>()</argsstring>
+        <name>login</name>
+        <briefdescription>
+<para>loging verification with predefined credentials </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="23" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.cpp" bodystart="26" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Checkings</label>
+        <link refid="class_checkings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Savings</label>
+        <link refid="class_savings"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Account</label>
+        <link refid="class_account"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" line="8" column="1" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Account.h" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_account_1a7c98923d42bfaa38c835f327080a608a" prot="private" virt="non-virtual"><scope>Account</scope><name>accNumber</name></member>
+      <member refid="class_account_1a37a95016ff7b92ac857638778222df53" prot="private" virt="non-virtual"><scope>Account</scope><name>accountName</name></member>
+      <member refid="class_account_1a92e2552bc9214e93070df37a483fcc1a" prot="private" virt="non-virtual"><scope>Account</scope><name>accountNumber</name></member>
+      <member refid="class_account_1ac82303c61d67850446ca5be72833582e" prot="private" virt="non-virtual"><scope>Account</scope><name>firstName</name></member>
+      <member refid="class_account_1ad1be8e5bc959a5b1ea52669b4bd16547" prot="public" virt="non-virtual"><scope>Account</scope><name>getAccountName</name></member>
+      <member refid="class_account_1a268ab7dff7c8f1ef5ccd8dde457e3a0b" prot="private" virt="non-virtual"><scope>Account</scope><name>lastName</name></member>
+      <member refid="class_account_1a3715579f3dbe33a6ae383c7ceae4cfc8" prot="public" virt="non-virtual"><scope>Account</scope><name>login</name></member>
+      <member refid="class_account_1a52db31a1199637f729c53de61649b885" prot="private" virt="non-virtual"><scope>Account</scope><name>pinNumber</name></member>
+      <member refid="class_account_1adc642b711d664002935f0b858162de64" prot="public" virt="non-virtual"><scope>Account</scope><name>setAccountName</name></member>
+      <member refid="class_account_1a877389e61cb1b24bdfac4393d56615ae" prot="public" virt="non-virtual"><scope>Account</scope><name>setAccountNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

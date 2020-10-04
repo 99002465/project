@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="class_savings" kind="class" language="C++" prot="public">
+    <compoundname>Savings</compoundname>
+    <basecompoundref refid="class_account" prot="public" virt="non-virtual">Account</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_savings_1a281bcdaff07a0e6bd52396422a63cfad" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Savings::s_balance</definition>
+        <argsstring></argsstring>
+        <name>s_balance</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" line="10" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_savings_1a6281ffa82d982af556d055ec6deb654f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Savings::setSavingsBalance</definition>
+        <argsstring>(double Balance)</argsstring>
+        <name>setSavingsBalance</name>
+        <param>
+          <type>double</type>
+          <declname>Balance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" line="13" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_savings_1a9fdff98fe1aa83c48f7edea23ee7c139" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Savings::getSavingsBalance</definition>
+        <argsstring>() const</argsstring>
+        <name>getSavingsBalance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" line="14" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_savings_1a6c531308821ddfdc574b751d57419ecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Savings::setWithdraw</definition>
+        <argsstring>()</argsstring>
+        <name>setWithdraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" line="15" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.cpp" bodystart="17" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_savings_1acc0078541c2548f3c3b23a6b99d60f61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Savings::setDeposit</definition>
+        <argsstring>()</argsstring>
+        <name>setDeposit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" line="16" column="6" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.cpp" bodystart="33" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_savings_1a9961e63cba31be4488362066f5b83377" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Savings::getTransfer</definition>
+        <argsstring>()</argsstring>
+        <name>getTransfer</name>
+        <briefdescription>
+<para>returns transfer ammount </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" line="17" column="8" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.cpp" bodystart="42" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Savings</label>
+        <link refid="class_savings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Account</label>
+        <link refid="class_account"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Savings</label>
+        <link refid="class_savings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Account</label>
+        <link refid="class_account"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" line="7" column="1" bodyfile="C:/Users/Akshata Shet/Desktop/mini_project/Atm_miniproject/Savings.h" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_account_1ad1be8e5bc959a5b1ea52669b4bd16547" prot="public" virt="non-virtual"><scope>Savings</scope><name>getAccountName</name></member>
+      <member refid="class_savings_1a9fdff98fe1aa83c48f7edea23ee7c139" prot="public" virt="non-virtual"><scope>Savings</scope><name>getSavingsBalance</name></member>
+      <member refid="class_savings_1a9961e63cba31be4488362066f5b83377" prot="public" virt="non-virtual"><scope>Savings</scope><name>getTransfer</name></member>
+      <member refid="class_account_1a3715579f3dbe33a6ae383c7ceae4cfc8" prot="public" virt="non-virtual"><scope>Savings</scope><name>login</name></member>
+      <member refid="class_savings_1a281bcdaff07a0e6bd52396422a63cfad" prot="private" virt="non-virtual"><scope>Savings</scope><name>s_balance</name></member>
+      <member refid="class_account_1adc642b711d664002935f0b858162de64" prot="public" virt="non-virtual"><scope>Savings</scope><name>setAccountName</name></member>
+      <member refid="class_account_1a877389e61cb1b24bdfac4393d56615ae" prot="public" virt="non-virtual"><scope>Savings</scope><name>setAccountNumber</name></member>
+      <member refid="class_savings_1acc0078541c2548f3c3b23a6b99d60f61" prot="public" virt="non-virtual"><scope>Savings</scope><name>setDeposit</name></member>
+      <member refid="class_savings_1a6281ffa82d982af556d055ec6deb654f" prot="public" virt="non-virtual"><scope>Savings</scope><name>setSavingsBalance</name></member>
+      <member refid="class_savings_1a6c531308821ddfdc574b751d57419ecd" prot="public" virt="non-virtual"><scope>Savings</scope><name>setWithdraw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
